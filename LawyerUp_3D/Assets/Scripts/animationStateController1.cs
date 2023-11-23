@@ -16,8 +16,8 @@ public class AnimationStateController : MonoBehaviour
     // Constants for rotation values
     private const float ROTATION_SPEED = 10f;
     private const float TARGET_ROTATION_DEGREES = 90f;
-    private const float WALKING_SPEED = 3f;
-    private const float RUNNING_SPEED = 5f;
+    private const float WALKING_SPEED = 4.5f;
+    private const float RUNNING_SPEED = 6.5f;
 
     // Start is called before the first frame update
     void Start()
