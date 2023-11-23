@@ -1,15 +1,18 @@
 using UnityEngine;
 
-public class CanvasPanelOpener : MonoBehaviour
+public class PanelController : MonoBehaviour
 {
-    public GameObject Panel;
+    public GameObject panel;
 
-    public void OpenPanel()
+    void Start()
     {
-        if(Panel== null)
-        {
-            Panel.SetActive(true);
-        }
+        // Ensure the panel is initially hidden
+        panel.SetActive(false);
     }
 
+    public void TogglePanel()
+    {
+        // Toggle the active state of the panel when the button is pressed
+        panel.SetActive(!panel.activeSelf);
+    }
 }
