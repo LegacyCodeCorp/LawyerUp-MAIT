@@ -48,9 +48,6 @@ public class AjFollowPlayer : MonoBehaviour
         {
             // When the player moves away, stop following
             isFollowing = false;
-
-            // Clear the player reference
-            player = null;
         }
     }
 }
