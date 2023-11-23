@@ -37758,7 +37758,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Interact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -59978,7 +59978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1750041602
 RectTransform:
   m_ObjectHideFlags: 0
@@ -62521,8 +62521,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 7.6192374
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -62546,13 +62546,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824680438}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.88047737, z: 0.47408816, w: 0}
-  m_LocalPosition: {x: -12.05, y: 14.81, z: 21.66}
+  m_LocalRotation: {x: -0.47800407, y: 0.06946083, z: 0.043491296, w: -0.8745261}
+  m_LocalPosition: {x: 14.5, y: 139.8, z: -77.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 56.6, y: -180, z: 0}
+  m_LocalEulerAnglesHint: {x: 56.1, y: -377, z: -14.8}
 --- !u!4 &1824738606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465822, guid: 4309f2a82b2bdf44d828d4901d51302c, type: 3}

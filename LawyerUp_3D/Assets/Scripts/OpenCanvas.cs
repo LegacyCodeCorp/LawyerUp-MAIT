@@ -7,6 +7,7 @@ public class CanvasPanelOpener : MonoBehaviour
 
     public void OpenPanel()
     {
+        
         if(Panel!= null)
         {
             Panel.SetActive(true);
