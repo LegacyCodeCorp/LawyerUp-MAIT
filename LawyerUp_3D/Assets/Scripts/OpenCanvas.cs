@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class CanvasPanelOpener : MonoBehaviour
 {
@@ -6,10 +7,11 @@ public class CanvasPanelOpener : MonoBehaviour
 
     public void OpenPanel()
     {
-        if(Panel== null)
+        if(Panel!= null)
         {
             Panel.SetActive(true);
         }
     }
+   
 
 }
