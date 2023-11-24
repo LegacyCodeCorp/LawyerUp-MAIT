@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="support.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://formsubmit.co/061a979588c167c03caca647b53af46c" method="post">
+            <!--honeypot-->
+            <input type="text" name="_honey" style="display: none;">
+            <!--disable captcha-->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/support_clone.html">
+            <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name" name="name" required>
+            <input type="email" id="email" placeholder="Your Email id" name="email" required>
+            <input type="text" id="phone" placeholder="Your Phone number" name="phone" required>
+            <textarea  id="message"  rows="4" placeholder="How can we help you?" name="message" ></textarea>
+            <button type="submit" onclick="send()">Send</button>
+
+        </form>
+    </div>
+    
+    
+</body>
+</html>
